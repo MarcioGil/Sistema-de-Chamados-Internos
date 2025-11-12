@@ -2,21 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ticketService } from '../services/ticket.service'
 import { CreateTicketData } from '../types'
-
-const categories = [
-  { value: 'ti', label: 'TI' },
-  { value: 'rh', label: 'RH' },
-  { value: 'financeiro', label: 'Financeiro' },
-  { value: 'compras', label: 'Compras' },
-  { value: 'infraestrutura', label: 'Infraestrutura' },
-]
-
-const priorities = [
-  { value: 'baixa', label: 'Baixa' },
-  { value: 'media', label: 'Média' },
-  { value: 'alta', label: 'Alta' },
-  { value: 'urgente', label: 'Urgente' },
-]
+import { categories, priorities } from '../utils/ticketHelpers'
 
 export const CreateTicket: React.FC = () => {
   const navigate = useNavigate()
@@ -26,15 +12,20 @@ export const CreateTicket: React.FC = () => {
   const [formData, setFormData] = useState<CreateTicketData>({
     title: '',
     description: '',
-    category: 'ti',
-    priority: 'media',
+    category: 'TI',
+    priority: 2,
   })
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target
-    setFormData((prev) => ({ ...prev, [name]: value }))
+    
+    if (name === 'priority') {
+      setFormData((prev) => ({ ...prev, priority: parseInt(value) }))
+    } else {
+      setFormData((prev) => ({ ...prev, [name]: value }))
+    }
   }
 
   const handleSubmit = async (e: React.FormEvent) => {

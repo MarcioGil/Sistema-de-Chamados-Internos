@@ -3,35 +3,13 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { ticketService } from '../services/ticket.service'
 import { TicketDetail } from '../types'
 import { useAuthStore } from '../store/useAuthStore'
-
-const priorityColors = {
-  baixa: 'bg-blue-100 text-blue-800',
-  media: 'bg-yellow-100 text-yellow-800',
-  alta: 'bg-orange-100 text-orange-800',
-  urgente: 'bg-red-100 text-red-800',
-}
-
-const statusColors = {
-  aberto: 'bg-green-100 text-green-800',
-  em_analise: 'bg-blue-100 text-blue-800',
-  em_progresso: 'bg-purple-100 text-purple-800',
-  concluido: 'bg-gray-100 text-gray-800',
-}
-
-const statusLabels = {
-  aberto: 'Aberto',
-  em_analise: 'Em Análise',
-  em_progresso: 'Em Progresso',
-  concluido: 'Concluído',
-}
-
-const categoryLabels = {
-  ti: 'TI',
-  rh: 'RH',
-  financeiro: 'Financeiro',
-  compras: 'Compras',
-  infraestrutura: 'Infraestrutura',
-}
+import { 
+  priorityColors, 
+  priorityLabels, 
+  statusColors, 
+  statusLabels, 
+  categoryLabels 
+} from '../utils/ticketHelpers'
 
 export const TicketDetails: React.FC = () => {
   const { id } = useParams<{ id: string }>()
@@ -73,9 +51,9 @@ export const TicketDetails: React.FC = () => {
   const canEdit = () => {
     if (!ticket || !user) return false
     return (
-      user.role === 'admin' ||
-      user.role === 'atendente' ||
-      (user.id === ticket.createdById && ticket.status === 'aberto')
+      user.role === 'ADMIN' ||
+      user.role === 'ATTENDANT' ||
+      (user.id === ticket.createdById && ticket.status === 'OPEN')
     )
   }
 
@@ -158,7 +136,7 @@ export const TicketDetails: React.FC = () => {
                   priorityColors[ticket.priority]
                 }`}
               >
-                {ticket.priority.charAt(0).toUpperCase() + ticket.priority.slice(1)}
+                {priorityLabels[ticket.priority]}
               </span>
             </div>
             <div>
@@ -192,7 +170,7 @@ export const TicketDetails: React.FC = () => {
               </div>
             )}
 
-            {!ticket.assignedTo && (user?.role === 'atendente' || user?.role === 'admin') && (
+            {!ticket.assignedTo && (user?.role === 'ATTENDANT' || user?.role === 'ADMIN') && (
               <div>
                 <h3 className="text-sm font-medium text-gray-500 mb-2">Atribuído para</h3>
                 <p className="text-sm text-gray-400 italic">Nenhum atendente atribuído</p>
