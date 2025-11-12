@@ -1,0 +1,106 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  USER
+  ATTENDANT
+  ADMIN
+}
+
+enum TicketStatus {
+  OPEN
+  IN_ANALYSIS
+  IN_PROGRESS
+  COMPLETED
+  CANCELLED
+}
+
+enum TicketCategory {
+  TI
+  RH
+  FINANCEIRO
+  COMPRAS
+  INFRAESTRUTURA
+}
+
+model User {
+  id           String   @id @default(uuid())
+  name         String
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  role         UserRole @default(USER)
+  active       Boolean  @default(true)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  // Relações
+  ticketsCreated   Ticket[]        @relation("TicketCreator")
+  ticketsAssigned  Ticket[]        @relation("TicketAssignee")
+  comments         Comment[]
+  historyChanges   TicketHistory[]
+
+  @@map("users")
+}
+
+model Ticket {
+  id          String         @id @default(uuid())
+  title       String
+  description String         @db.Text
+  category    TicketCategory
+  status      TicketStatus   @default(OPEN)
+  priority    Int            @default(1) // 1=Baixa, 2=Média, 3=Alta, 4=Urgente
+  attachments String[]       @default([])
+  createdById String         @map("created_by_id")
+  assignedToId String?       @map("assigned_to_id")
+  createdAt   DateTime       @default(now()) @map("created_at")
+  updatedAt   DateTime       @updatedAt @map("updated_at")
+
+  // Relações
+  createdBy  User            @relation("TicketCreator", fields: [createdById], references: [id])
+  assignedTo User?           @relation("TicketAssignee", fields: [assignedToId], references: [id])
+  comments   Comment[]
+  history    TicketHistory[]
+
+  @@index([status])
+  @@index([category])
+  @@index([createdById])
+  @@index([assignedToId])
+  @@map("tickets")
+}
+
+model Comment {
+  id        String   @id @default(uuid())
+  message   String   @db.Text
+  ticketId  String   @map("ticket_id")
+  userId    String   @map("user_id")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  // Relações
+  ticket Ticket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  user   User   @relation(fields: [userId], references: [id])
+
+  @@index([ticketId])
+  @@map("comments")
+}
+
+model TicketHistory {
+  id         String       @id @default(uuid())
+  ticketId   String       @map("ticket_id")
+  oldStatus  TicketStatus @map("old_status")
+  newStatus  TicketStatus @map("new_status")
+  changedById String      @map("changed_by_id")
+  changedAt  DateTime     @default(now()) @map("changed_at")
+
+  // Relações
+  ticket    Ticket @relation(fields: [ticketId], references: [id], onDelete: Cascade)
+  changedBy User   @relation(fields: [changedById], references: [id])
+
+  @@index([ticketId])
+  @@map("ticket_history")
+}
