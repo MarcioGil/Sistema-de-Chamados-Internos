@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { useAuthStore } from './store/useAuthStore'
+import { Dashboard } from './pages/Dashboard'
 import { TicketList } from './pages/TicketList'
 import { CreateTicket } from './pages/CreateTicket'
 import { TicketDetails } from './pages/TicketDetails'
@@ -94,7 +95,15 @@ const App = () => {
           path="/"
           element={
             <PrivateRoute>
-              <Navigate to="/tickets" replace />
+              <Dashboard />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/dashboard"
+          element={
+            <PrivateRoute>
+              <Dashboard />
             </PrivateRoute>
           }
         />
