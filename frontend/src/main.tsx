@@ -7,6 +7,9 @@ import { TicketList } from './pages/TicketList'
 import { CreateTicket } from './pages/CreateTicket'
 import { TicketDetails } from './pages/TicketDetails'
 import { EditTicket } from './pages/EditTicket'
+import { UserList } from './pages/UserList'
+import { CreateUser } from './pages/CreateUser'
+import { EditUser } from './pages/EditUser'
 import './index.css'
 
 // Componente temporário de Login
@@ -136,6 +139,30 @@ const App = () => {
           element={
             <PrivateRoute>
               <EditTicket />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/users"
+          element={
+            <PrivateRoute>
+              <UserList />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/users/new"
+          element={
+            <PrivateRoute>
+              <CreateUser />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/users/:id/edit"
+          element={
+            <PrivateRoute>
+              <EditUser />
             </PrivateRoute>
           }
         />
