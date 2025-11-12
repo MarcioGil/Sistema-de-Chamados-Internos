@@ -1,5 +1,5 @@
 # Script de Deploy - Backend
-# Execute este script após criar o banco de dados
+# Execute este script apos criar o banco de dados
 
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host "  HELPDESKFLOW - SETUP DE BANCO DE DADOS  " -ForegroundColor Cyan
@@ -14,32 +14,32 @@ $DATABASE_URL = Read-Host "DATABASE_URL"
 
 if ([string]::IsNullOrWhiteSpace($DATABASE_URL)) {
     Write-Host ""
-    Write-Host "❌ ERRO: DATABASE_URL não pode estar vazia!" -ForegroundColor Red
+    Write-Host "[X] ERRO: DATABASE_URL nao pode estar vazia!" -ForegroundColor Red
     Write-Host ""
     exit 1
 }
 
-# Define a variável de ambiente
+# Define a variavel de ambiente
 $env:DATABASE_URL = $DATABASE_URL
 
 Write-Host ""
-Write-Host "✅ DATABASE_URL configurada!" -ForegroundColor Green
+Write-Host "[OK] DATABASE_URL configurada!" -ForegroundColor Green
 Write-Host ""
 
 # Navega para a pasta backend
-Write-Host "📁 Navegando para pasta backend..." -ForegroundColor Cyan
+Write-Host "Navegando para pasta backend..." -ForegroundColor Cyan
 Set-Location -Path "c:\Projeto - HelpDeskFlow - Sistema de Chamadas Internas\HelpDeskFlow\backend"
 
-# Verifica se está na pasta correta
+# Verifica se esta na pasta correta
 if (-not (Test-Path "package.json")) {
     Write-Host ""
-    Write-Host "❌ ERRO: Não encontrei o package.json!" -ForegroundColor Red
+    Write-Host "[X] ERRO: Nao encontrei o package.json!" -ForegroundColor Red
     Write-Host "Certifique-se de estar na pasta correta do projeto." -ForegroundColor Red
     Write-Host ""
     exit 1
 }
 
-Write-Host "✅ Pasta backend encontrada!" -ForegroundColor Green
+Write-Host "[OK] Pasta backend encontrada!" -ForegroundColor Green
 Write-Host ""
 
 # Roda as migrations
@@ -54,18 +54,18 @@ npx prisma migrate deploy
 
 if ($LASTEXITCODE -ne 0) {
     Write-Host ""
-    Write-Host "❌ ERRO ao aplicar migrations!" -ForegroundColor Red
+    Write-Host "[X] ERRO ao aplicar migrations!" -ForegroundColor Red
     Write-Host ""
-    Write-Host "Possíveis causas:" -ForegroundColor Yellow
+    Write-Host "Possiveis causas:" -ForegroundColor Yellow
     Write-Host "  1. Connection string incorreta" -ForegroundColor Gray
-    Write-Host "  2. Banco de dados não está acessível" -ForegroundColor Gray
-    Write-Host "  3. Permissões insuficientes" -ForegroundColor Gray
+    Write-Host "  2. Banco de dados nao esta acessivel" -ForegroundColor Gray
+    Write-Host "  3. Permissoes insuficientes" -ForegroundColor Gray
     Write-Host ""
     exit 1
 }
 
 Write-Host ""
-Write-Host "✅ Migrations aplicadas com sucesso!" -ForegroundColor Green
+Write-Host "[OK] Migrations aplicadas com sucesso!" -ForegroundColor Green
 Write-Host ""
 
 # Popula o banco com dados iniciais
@@ -80,45 +80,45 @@ npx prisma db seed
 
 if ($LASTEXITCODE -ne 0) {
     Write-Host ""
-    Write-Host "❌ ERRO ao popular banco!" -ForegroundColor Red
+    Write-Host "[X] ERRO ao popular banco!" -ForegroundColor Red
     Write-Host ""
     exit 1
 }
 
 Write-Host ""
-Write-Host "✅ Banco populado com sucesso!" -ForegroundColor Green
+Write-Host "[OK] Banco populado com sucesso!" -ForegroundColor Green
 Write-Host ""
 
 # Sucesso!
 Write-Host "============================================" -ForegroundColor Green
-Write-Host "         ✅ SETUP CONCLUÍDO!              " -ForegroundColor Green
+Write-Host "         [OK] SETUP CONCLUIDO!            " -ForegroundColor Green
 Write-Host "============================================" -ForegroundColor Green
 Write-Host ""
 Write-Host "Dados criados:" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "👤 ADMIN:" -ForegroundColor Yellow
+Write-Host "ADMIN:" -ForegroundColor Yellow
 Write-Host "   Email: admin@helpdesk.com" -ForegroundColor White
 Write-Host "   Senha: admin123" -ForegroundColor White
 Write-Host ""
-Write-Host "👤 ATENDENTE:" -ForegroundColor Yellow
+Write-Host "ATENDENTE:" -ForegroundColor Yellow
 Write-Host "   Email: maria@helpdesk.com" -ForegroundColor White
 Write-Host "   Senha: maria123" -ForegroundColor White
 Write-Host ""
-Write-Host "👤 USUÁRIO:" -ForegroundColor Yellow
+Write-Host "USUARIO:" -ForegroundColor Yellow
 Write-Host "   Email: joao@helpdesk.com" -ForegroundColor White
 Write-Host "   Senha: joao123" -ForegroundColor White
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "🎯 PRÓXIMOS PASSOS:" -ForegroundColor Cyan
+Write-Host "PROXIMOS PASSOS:" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "1. Acesse: https://dashboard.render.com/" -ForegroundColor White
 Write-Host "2. Crie um Web Service" -ForegroundColor White
-Write-Host "3. Conecte o repositório: MarcioGil/Sistema-de-Chamados-Internos" -ForegroundColor White
-Write-Host "4. Configure as variáveis de ambiente (incluindo esta DATABASE_URL)" -ForegroundColor White
-Write-Host "5. Faça o deploy!" -ForegroundColor White
+Write-Host "3. Conecte o repositorio: MarcioGil/Sistema-de-Chamados-Internos" -ForegroundColor White
+Write-Host "4. Configure as variaveis de ambiente (incluindo esta DATABASE_URL)" -ForegroundColor White
+Write-Host "5. Faca o deploy!" -ForegroundColor White
 Write-Host ""
-Write-Host "📖 Guia completo: DEPLOY_FACIL.md" -ForegroundColor Gray
+Write-Host "Guia completo: DEPLOY_FACIL.md" -ForegroundColor Gray
 Write-Host ""
 Write-Host "============================================" -ForegroundColor Green
 Write-Host ""
