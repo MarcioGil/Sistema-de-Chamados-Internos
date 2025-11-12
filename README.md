@@ -1,572 +1,1141 @@
-# 🎫 HelpDeskFlow - Sistema Completo de Gerenciamento de Chamados Internos# 🎫 HelpDeskFlow — Sistema de Chamados Internos# 🎫 HelpDeskFlow — Sistema de Chamados Internos# 🎫 HelpDeskFlow — Sistema de Chamados Internos
+# 🎫 HelpDeskFlow - Sistema de Gerenciamento de Chamados Internos# 🎫 HelpDeskFlow - Sistema Completo de Gerenciamento de Chamados Internos# 🎫 HelpDeskFlow — Sistema de Chamados Internos# 🎫 HelpDeskFlow — Sistema de Chamados Internos# 🎫 HelpDeskFlow — Sistema de Chamados Internos
 
 
 
-Sistema moderno e completo para gerenciamento de tickets corporativos, desenvolvido com tecnologias de ponta e funcionalidades avançadas de IA.
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
 
+[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)
 
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)Sistema moderno e completo para gerenciamento de tickets corporativos, desenvolvido com tecnologias de ponta e funcionalidades avançadas de IA.
+
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)](https://www.postgresql.org/)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)
 
 ---[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+> **Sistema profissional de gerenciamento de chamados internos com foco em segurança, acessibilidade para PCDs e funcionalidades inteligentes baseadas em IA**
 
+
+
+---
 
 ## 🌐 Deploy[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
 
+## 🌐 Deploy
 
 
-- **Frontend:** [https://help-desk-flow-frontend.vercel.app](https://help-desk-flow-frontend.vercel.app)[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
+
+- 🚀 **Frontend (Vercel)**: [https://help-desk-flow-frontend.vercel.app](https://help-desk-flow-frontend.vercel.app)
+
+- 🔧 **Backend (Render)**: API REST completa- **Frontend:** [https://help-desk-flow-frontend.vercel.app](https://help-desk-flow-frontend.vercel.app)[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)  
+
+- 💾 **Banco de Dados**: PostgreSQL (Neon.tech)
 
 - **Backend API:** Hospedada na Render
 
+---
+
 - **Banco de Dados:** PostgreSQL (Neon.tech)[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)
 
+## 📋 Sobre o Projeto
 
+
+
+O **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas de todos os tamanhos. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles (RBAC).
 
 ---[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)](https://www.postgresql.org/)[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)  
 
+### 🎯 Problema que Resolve
 
+
+
+Empresas enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:
 
 ## 🚀 Funcionalidades Principais[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)
 
+- ✅ **Centralização** de todas as solicitações em um único sistema
+
+- ✅ **Rastreabilidade completa** do início ao fim de cada chamado
+
+- ✅ **Métricas e KPIs** para identificar gargalos e melhorar processos
+
+- ✅ **IA integrada** para triagem automática e priorização inteligente### 📋 Gestão de Chamados[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)  
+
+- ✅ **Controle de acesso** com 3 níveis de permissão (RBAC)
+
+- ✅ **Histórico completo** de mudanças e auditoria- ✅ Criação, edição e exclusão de tickets
+
+- ✅ **Interface acessível** (WCAG 2.1 AA) para inclusão de PCDs
+
+- ✅ **Integrações** com Slack, Teams e WhatsApp- ✅ Sistema de prioridades (Baixa, Média, Alta, Urgente)> **Sistema profissional de gerenciamento de chamados internos com foco em segurança e acessibilidade para PCDs**
 
 
-### 📋 Gestão de Chamados[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)[![React](https://img.shields.io/badge/React-18.3-61dafb)](https://reactjs.org/)  
 
-- ✅ Criação, edição e exclusão de tickets
+---- ✅ Categorização por departamentos (TI, RH, Financeiro, Compras, Infraestrutura)
 
-- ✅ Sistema de prioridades (Baixa, Média, Alta, Urgente)> **Sistema profissional de gerenciamento de chamados internos com foco em segurança e acessibilidade para PCDs**
 
-- ✅ Categorização por departamentos (TI, RH, Financeiro, Compras, Infraestrutura)
 
-- ✅ Status personalizados (Aberto, Em andamento, Resolvido, Cancelado)[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)  
+## 🚀 Funcionalidades Principais- ✅ Status personalizados (Aberto, Em andamento, Resolvido, Cancelado)[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)[![Node.js](https://img.shields.io/badge/Node.js-20+-green)](https://nodejs.org/)  
 
-- ✅ Anexos de imagens e documentos
 
-- ✅ Histórico completo de atualizações## 🌐 Deploy
 
-- ✅ Filtros avançados e pesquisa
+### 👥 Autenticação e Perfis- ✅ Anexos de imagens e documentos
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)](https://www.postgresql.org/)[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)](https://www.postgresql.org/)  
+- ✅ Login seguro com JWT (JSON Web Token)
 
-### 🤖 Chatbot de Triagem Automática
+- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**- ✅ Histórico completo de atualizações## 🌐 Deploy
 
-- ✅ Assistente virtual inteligente para criação de chamados- 🚀 **Frontend (Vercel)**: [https://helpdeskflow.vercel.app](https://helpdeskflow.vercel.app)
+- ✅ Controle de permissões (RBAC)
 
-- ✅ Análise automática de urgência e categoria
+- ✅ Senhas criptografadas com bcrypt (12 rounds)- ✅ Filtros avançados e pesquisa
 
-- ✅ Sugestões de prioridade baseadas em palavras-chave- 🔧 **Backend (Render)**: [https://dashboard.render.com](https://dashboard.render.com)[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)
+
+
+### 🎫 Gestão Completa de Tickets[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)](https://www.postgresql.org/)[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue)](https://www.postgresql.org/)  
+
+- ✅ Criar, editar, visualizar e deletar chamados
+
+- ✅ 5 categorias: TI, RH, Financeiro, Compras, Infraestrutura### 🤖 Chatbot de Triagem Automática
+
+- ✅ 4 níveis de prioridade: Baixa, Média, Alta, Urgente
+
+- ✅ 4 status: Aberto, Em Análise, Em Progresso, Concluído- ✅ Assistente virtual inteligente para criação de chamados- 🚀 **Frontend (Vercel)**: [https://helpdeskflow.vercel.app](https://helpdeskflow.vercel.app)
+
+- ✅ Atribuir responsáveis (atendentes)
+
+- ✅ Upload de arquivos PDF (até 10MB)- ✅ Análise automática de urgência e categoria
+
+- ✅ Histórico automático de todas as mudanças
+
+- ✅ Filtros avançados: Todos, Meus Tickets, Atribuídos a Mim- ✅ Sugestões de prioridade baseadas em palavras-chave- 🔧 **Backend (Render)**: [https://dashboard.render.com](https://dashboard.render.com)[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1%20AA-green)](https://www.w3.org/WAI/WCAG21/quickref/)
+
+
+
+### 🤖 Chatbot de Triagem Automática com IA- ✅ Conversação contextual em tempo real
+
+- ✅ Assistente virtual inteligente para criação de chamados
+
+- ✅ Análise automática de urgência e categoria- ✅ Geração automática de título do ticket
+
+- ✅ Sugestões de prioridade baseadas em palavras-chave
 
 - ✅ Conversação contextual em tempo real
 
 - ✅ Geração automática de título do ticket
 
-
-
 ### 🧠 Priorização Inteligente com IA---
 
-- ✅ Análise semântica do conteúdo do ticket
+### 🧠 Priorização Inteligente com IA
 
-- ✅ Detecção de palavras-chave de urgência (crítico, emergência, parado, travado)
+- ✅ Análise semântica do conteúdo do ticket- ✅ Análise semântica do conteúdo do ticket
 
-- ✅ Score de confiança para cada sugestão
+- ✅ Detecção de palavras-chave de urgência (crítico, emergência, parado)
 
-- ✅ Categorização automática por departamento## 👨‍💻 Sobre o Desenvolvedor> **Sistema profissional de gerenciamento de chamados internos com foco em segurança e acessibilidade para PCDs**> **Sistema profissional de gerenciamento de chamados internos com foco em segurança e acessibilidade para PCDs**
+- ✅ Score de confiança para cada sugestão- ✅ Detecção de palavras-chave de urgência (crítico, emergência, parado, travado)
 
-- ✅ Histórico de palavras-chave identificadas
+- ✅ Categorização automática por departamento
+
+- ✅ Histórico de palavras-chave identificadas- ✅ Score de confiança para cada sugestão
 
 
 
-### ⭐ Sistema de Feedback e Satisfação
+### ⭐ Sistema de Feedback e Satisfação (NPS)- ✅ Categorização automática por departamento## 👨‍💻 Sobre o Desenvolvedor> **Sistema profissional de gerenciamento de chamados internos com foco em segurança e acessibilidade para PCDs**> **Sistema profissional de gerenciamento de chamados internos com foco em segurança e acessibilidade para PCDs**
 
-- ✅ Avaliação pós-atendimento (5 níveis: Muito Ruim a Excelente)**Márcio Gil**  
+- ✅ Avaliação pós-atendimento com 5 níveis (Muito Ruim a Excelente)
 
-- ✅ NPS (Net Promoter Score) com cálculo automático
+- ✅ NPS (Net Promoter Score) com cálculo automático- ✅ Histórico de palavras-chave identificadas
 
-- ✅ Comentários opcionais dos usuários🎓 Embaixador da Turma 14 - DIO Campus Expert  
+- ✅ Comentários opcionais dos usuários
 
 - ✅ Estatísticas e dashboards de satisfação
 
-- ✅ Identificação de promotores, neutros e detratores🎓 Estudante do 5° Período de Engenharia de Software  ---## 🌐 Deploy
+- ✅ Identificação de promotores, neutros e detratores
 
-- ✅ Métricas de qualidade do atendimento
-
-💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social
+### ⭐ Sistema de Feedback e Satisfação
 
 ### 🔗 Integrações com Ferramentas Externas
 
-- ✅ **Slack** - Notificações com blocos formatados e ações
+- ✅ **Slack** - Notificações com blocos formatados e botões de ação- ✅ Avaliação pós-atendimento (5 níveis: Muito Ruim a Excelente)**Márcio Gil**  
 
 - ✅ **Microsoft Teams** - Cards interativos coloridos por prioridade
 
-- ✅ **WhatsApp Business** - Mensagens via API Twilio**Conecte-se:**
+- ✅ **WhatsApp Business** - Mensagens via API Twilio- ✅ NPS (Net Promoter Score) com cálculo automático
 
 - ✅ Webhooks configuráveis por plataforma
 
-- ✅ Testes de integração integrados- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)## 🌐 Deploy- 🚀 **Frontend (Vercel)**: [https://helpdeskflow.vercel.app](https://helpdeskflow.vercel.app)
+- ✅ Testes de integração integrados- ✅ Comentários opcionais dos usuários🎓 Embaixador da Turma 14 - DIO Campus Expert  
 
 - ✅ Notificações automáticas de atualizações
 
-- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)
+- ✅ Estatísticas e dashboards de satisfação
 
-### 💬 Sistema de Comentários
+### 💬 Sistema de Comentários em Tempo Real
 
-- ✅ Comentários em tempo real- 💻 [GitHub - Perfil](https://github.com/MarcioGil)- 🔧 **Backend (Render)**: [https://dashboard.render.com](https://dashboard.render.com)
+- ✅ Adicionar comentários em qualquer ticket- ✅ Identificação de promotores, neutros e detratores🎓 Estudante do 5° Período de Engenharia de Software  ---## 🌐 Deploy
 
-- ✅ Menções a usuários (@usuario)
+- ✅ Histórico completo de comunicação
 
-- ✅ Formatação de texto- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)
+- ✅ Identificação do autor e timestamp- ✅ Métricas de qualidade do atendimento
 
-- ✅ Notificações de novos comentários
+- ✅ Visualização cronológica
 
-- ✅ Histórico completo da conversa- 🚀 **Frontend (Vercel)**: [https://helpdeskflow.vercel.app](https://helpdeskflow.vercel.app)
+💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social
 
+### 📊 Dashboard e Métricas
 
+- ✅ Painel administrativo completo### 🔗 Integrações com Ferramentas Externas
 
-### 📊 Dashboard e Relatórios---
+- ✅ 4 cards de resumo (Total, Abertos, Em Progresso, Concluídos)
 
-- ✅ Painel administrativo completo
+- ✅ Gráficos de tickets por categoria (com percentuais)- ✅ **Slack** - Notificações com blocos formatados e ações
 
-- ✅ Gráficos de tickets por status- 🔧 **Backend (Render)**: [https://dashboard.render.com](https://dashboard.render.com)---
+- ✅ Gráficos de tickets por prioridade (color-coded)
 
-- ✅ Estatísticas por categoria
+- ✅ Tabela dos 5 tickets mais recentes- ✅ **Microsoft Teams** - Cards interativos coloridos por prioridade
 
-- ✅ Análise de prioridades## 📋 Sobre o Projeto
+- ✅ Botões de ação rápida (Novo Ticket, Meus Tickets, Atribuídos)
 
-- ✅ Métricas de tempo de resolução
+- ✅ Métricas em tempo real- ✅ **WhatsApp Business** - Mensagens via API Twilio**Conecte-se:**
 
-- ✅ Dashboards de NPS e satisfação
+- ✅ Interface responsiva
 
-- ✅ Exportação de relatórios
+- ✅ Webhooks configuráveis por plataforma
 
-O **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles.
+### 👤 Gerenciamento de Usuários (Admin)
 
-### 👥 Gestão de Usuários
+- ✅ Listar todos os usuários do sistema- ✅ Testes de integração integrados- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)## 🌐 Deploy- 🚀 **Frontend (Vercel)**: [https://helpdeskflow.vercel.app](https://helpdeskflow.vercel.app)
 
-- ✅ Controle de acesso baseado em roles (Admin, Atendente, Usuário)---## 👨‍💻 Sobre o Desenvolvedor
+- ✅ Criar novos usuários
 
-- ✅ Cadastro e edição de usuários
+- ✅ Editar usuários existentes- ✅ Notificações automáticas de atualizações
 
-- ✅ Ativação/desativação de contas**Desenvolvido com foco em segurança empresarial e acessibilidade completa para pessoas com deficiência (PCDs).**
+- ✅ Ativar/desativar contas
 
-- ✅ Perfis detalhados
+- ✅ Alterar perfis e permissões- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)
 
-- ✅ Histórico de atividades
+- ✅ Validação de email único
 
-
-
-### 📄 Geração de Relatórios PDF### 🎯 Problema que Resolve
-
-- ✅ Exportação de tickets em PDF
-
-- ✅ Layout profissional e customizável## 👨‍💻 Sobre o Desenvolvedor**Márcio Gil**  
-
-- ✅ Informações completas (anexos, comentários, histórico)
-
-- ✅ Suporte a múltiplos formatosEmpresas de todos os tamanhos enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:
+- ✅ Proteção contra auto-exclusão### 💬 Sistema de Comentários
 
 
 
-### 🔐 Autenticação e Segurança- ✅ Centralização de todas as solicitações🎓 Embaixador da Turma 14 - DIO Campus Expert  
+### 📄 Geração de Relatórios PDF- ✅ Comentários em tempo real- 💻 [GitHub - Perfil](https://github.com/MarcioGil)- 🔧 **Backend (Render)**: [https://dashboard.render.com](https://dashboard.render.com)
 
-- ✅ Login com JWT (JSON Web Token)
+- ✅ Exportar tickets completos para PDF
 
-- ✅ Proteção de rotas por role- ✅ Rastreabilidade completa do início ao fim
+- ✅ Incluir todos os detalhes, anexos e comentários- ✅ Menções a usuários (@usuario)
 
-- ✅ Criptografia de senhas (bcrypt)
+- ✅ Formatação profissional
 
-- ✅ Middleware de autorização- ✅ Métricas para identificar gargalos**Márcio Gil**  🎓 Estudante do 5° Período de Engenharia de Software  
+- ✅ Ideal para documentação e auditorias- ✅ Formatação de texto- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)
 
-- ✅ Sessões seguras
 
-- ✅ Controle de acesso e permissões
 
----
+### ♿ Acessibilidade (WCAG 2.1 AA)- ✅ Notificações de novos comentários
 
-- ✅ Histórico completo de cada chamado🎓 Embaixador da Turma 14 - DIO Campus Expert  💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social
+- ✅ Navegação completa por teclado (Tab, Enter, Esc)
 
-## 🛠️ Tecnologias Utilizadas
+- ✅ Labels ARIA para leitores de tela- ✅ Histórico completo da conversa- 🚀 **Frontend (Vercel)**: [https://helpdeskflow.vercel.app](https://helpdeskflow.vercel.app)
 
-- ✅ Interface acessível (WCAG 2.1 AA)
+- ✅ Contraste de cores adequado (4.5:1)
 
-### **Backend**
+- ✅ Foco visível em todos os elementos
 
-- **Node.js** - Runtime JavaScript🎓 Estudante do 5° Período de Engenharia de Software  
+- ✅ Mensagens de erro acessíveis
 
-- **Express** - Framework web
+- ✅ Suporte a `prefers-reduced-motion`### 📊 Dashboard e Relatórios---
 
-- **TypeScript** - Tipagem estática---
 
-- **Prisma ORM** - Modelagem de banco de dados
 
-- **PostgreSQL** - Banco de dados relacional💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social**Conecte-se:**
+---- ✅ Painel administrativo completo
 
-- **JWT** - Autenticação
 
-- **bcrypt** - Criptografia de senhas## 🚀 Funcionalidades Principais
 
-- **Zod** - Validação de schemas
+## 🛠️ Tecnologias Utilizadas- ✅ Gráficos de tickets por status- 🔧 **Backend (Render)**: [https://dashboard.render.com](https://dashboard.render.com)---
 
-- **AI Service** - Análise inteligente de tickets- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)
+
+
+### **Backend**- ✅ Estatísticas por categoria
+
+- **Node.js 20+** - Runtime JavaScript
+
+- **Express** - Framework web minimalista- ✅ Análise de prioridades## 📋 Sobre o Projeto
+
+- **TypeScript 5.5** - Tipagem estática
+
+- **Prisma ORM** - Modelagem e migrations- ✅ Métricas de tempo de resolução
+
+- **PostgreSQL 15+** - Banco de dados relacional
+
+- **JWT** - Autenticação stateless- ✅ Dashboards de NPS e satisfação
+
+- **bcrypt** - Criptografia de senhas (12 rounds)
+
+- **Zod** - Validação de schemas- ✅ Exportação de relatórios
+
+- **Helmet** - Segurança HTTP
+
+- **CORS** - Controle de origemO **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles.
+
+- **Express Rate Limit** - Proteção contra força bruta
+
+- **AI Service** - Análise inteligente de tickets### 👥 Gestão de Usuários
 
 - **NPS Analytics** - Cálculo de Net Promoter Score
 
-- **Slack API** - Integração via Webhooks### 👥 Autenticação e Perfis
-
-- **Microsoft Teams API** - Notificações com MessageCard
-
-- **Twilio** - WhatsApp Business API- ✅ Login seguro com JWT**Conecte-se:**- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)
+- **Slack/Teams/Twilio APIs** - Integrações externas- ✅ Controle de acesso baseado em roles (Admin, Atendente, Usuário)---## 👨‍💻 Sobre o Desenvolvedor
 
 
 
-### **Frontend**- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**
+### **Frontend**- ✅ Cadastro e edição de usuários
 
-- **React 18** - Biblioteca UI
+- **React 18.3** - Biblioteca UI declarativa
 
-- **Vite** - Build tool moderna- ✅ Controle de permissões (RBAC)- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)- 💻 [GitHub - Perfil](https://github.com/MarcioGil)
+- **Vite** - Build tool moderna e rápida- ✅ Ativação/desativação de contas**Desenvolvido com foco em segurança empresarial e acessibilidade completa para pessoas com deficiência (PCDs).**
 
-- **TypeScript** - Tipagem estática
+- **TypeScript 5.5** - Tipagem estática
 
-- **Tailwind CSS** - Framework CSS utilitário- ✅ Senhas criptografadas com bcrypt (12 rounds)
+- **Tailwind CSS** - Framework CSS utilitário- ✅ Perfis detalhados
 
 - **Axios** - Cliente HTTP
 
-- **React Router DOM** - Roteamento- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)
+- **React Router DOM** - Roteamento SPA- ✅ Histórico de atividades
 
-- **Lucide React** - Ícones modernos
+- **React Hook Form** - Gerenciamento de formulários
 
-- **Recharts** - Gráficos e visualizações### 🎫 Gestão de Tickets
+- **Zod** - Validação client-side
+
+- **Recharts** - Gráficos e visualizações
+
+- **Lucide React** - Ícones modernos### 📄 Geração de Relatórios PDF### 🎯 Problema que Resolve
+
+- **date-fns** - Manipulação de datas
+
+- ✅ Exportação de tickets em PDF
+
+### **DevOps & Hospedagem**
+
+- **Vercel** - Deploy do frontend- ✅ Layout profissional e customizável## 👨‍💻 Sobre o Desenvolvedor**Márcio Gil**  
+
+- **Render** - Deploy do backend
+
+- **Neon.tech** - PostgreSQL gerenciado- ✅ Informações completas (anexos, comentários, histórico)
+
+- **Git/GitHub** - Controle de versão
+
+- ✅ Suporte a múltiplos formatosEmpresas de todos os tamanhos enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:
+
+---
 
 
 
-### **DevOps & Hospedagem**- ✅ Criar, editar e visualizar chamados- 💻 [GitHub - Perfil](https://github.com/MarcioGil)
+## 📁 Estrutura do Projeto
 
-- **Vercel** - Deploy do frontend
+### 🔐 Autenticação e Segurança- ✅ Centralização de todas as solicitações🎓 Embaixador da Turma 14 - DIO Campus Expert  
 
-- **Render** - Deploy do backend- ✅ Categorias: TI, RH, Financeiro, Compras, Infraestrutura
+```
 
-- **Neon.tech** - Banco PostgreSQL gerenciado
+HelpDeskFlow/- ✅ Login com JWT (JSON Web Token)
 
-- **Git/GitHub** - Controle de versão- ✅ 4 níveis de prioridade (Baixa, Média, Alta, Urgente)- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)---
+├── backend/
 
+│   ├── prisma/- ✅ Proteção de rotas por role- ✅ Rastreabilidade completa do início ao fim
 
+│   │   ├── schema.prisma              # Modelos do banco
 
----- ✅ Atribuir responsáveis (atendentes)
+│   │   ├── seed.ts                    # Dados iniciais- ✅ Criptografia de senhas (bcrypt)
 
+│   │   └── migrations/                # Migrações SQL
 
+│   ├── src/- ✅ Middleware de autorização- ✅ Métricas para identificar gargalos**Márcio Gil**  🎓 Estudante do 5° Período de Engenharia de Software  
 
-## 📁 Estrutura do Projeto- ✅ Atualizar status (Aberto → Em Análise → Em Progresso → Concluído)
+│   │   ├── controllers/
 
-
-
-```- ✅ Sistema de comentários em tempo real
-
-HelpDeskFlow/
-
-├── backend/- ✅ Upload de arquivos PDF (até 10MB)---## 📋 Sobre o Projeto
-
-│   ├── prisma/
-
-│   │   ├── schema.prisma           # Modelos do banco- ✅ Download e exclusão de anexos
-
-│   │   └── migrations/             # Migrações SQL
-
-│   ├── src/- ✅ Histórico automático de mudanças
-
-│   │   ├── controllers/            # Controladores da API
-
-│   │   │   ├── auth.controller.ts- ✅ Filtros: Todos, Meus Tickets, Atribuídos a Mim
+│   │   │   ├── auth.controller.ts- ✅ Sessões seguras
 
 │   │   │   ├── ticket.controller.ts
 
-│   │   │   ├── user.controller.ts## 📋 Sobre o ProjetoO **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles.
+│   │   │   ├── user.controller.ts- ✅ Controle de acesso e permissões
 
 │   │   │   ├── comment.controller.ts
 
-│   │   │   ├── chatbot.controller.ts    # IA - Chatbot### 📊 Dashboard e Métricas
+│   │   │   ├── chatbot.controller.ts       # IA - Chatbot---
 
-│   │   │   ├── feedback.controller.ts   # Feedback e NPS
+│   │   │   ├── feedback.controller.ts      # Feedback e NPS
 
-│   │   │   └── integration.controller.ts # Integrações- ✅ 4 cards de resumo (Total, Abertos, Em Progresso, Concluídos)
+│   │   │   └── integration.controller.ts   # Integrações- ✅ Histórico completo de cada chamado🎓 Embaixador da Turma 14 - DIO Campus Expert  💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social
 
-│   │   ├── middleware/             # Middlewares
+│   │   ├── middleware/
 
-│   │   │   ├── auth.middleware.ts- ✅ Gráficos de tickets por categoria (com percentuais)
+│   │   │   ├── auth.middleware.ts## 🛠️ Tecnologias Utilizadas
 
 │   │   │   └── role.middleware.ts
 
-│   │   ├── services/               # Serviços- ✅ Gráficos de tickets por prioridade (color-coded)O **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles.**Desenvolvido com foco em segurança empresarial e acessibilidade completa para pessoas com deficiência (PCDs).**
+│   │   ├── services/- ✅ Interface acessível (WCAG 2.1 AA)
 
-│   │   │   ├── ai.service.ts          # IA - Análise e sugestões
+│   │   │   ├── ai.service.ts               # IA - Análise
 
-│   │   │   └── integration.service.ts  # Slack/Teams/WhatsApp- ✅ Tabela dos 5 tickets mais recentes
+│   │   │   └── integration.service.ts      # Slack/Teams/WhatsApp### **Backend**
 
-│   │   ├── routes/                 # Rotas da API
+│   │   ├── routes/
 
-│   │   │   ├── auth.routes.ts- ✅ Botões de ação rápida (Novo Ticket, Meus Tickets, Atribuídos)
+│   │   │   ├── auth.routes.ts- **Node.js** - Runtime JavaScript🎓 Estudante do 5° Período de Engenharia de Software  
 
 │   │   │   ├── ticket.routes.ts
 
-│   │   │   ├── user.routes.ts- ✅ Métricas em tempo real
+│   │   │   ├── user.routes.ts- **Express** - Framework web
 
 │   │   │   ├── comment.routes.ts
 
-│   │   │   ├── chatbot.routes.ts- ✅ Interface responsiva**Desenvolvido com foco em segurança empresarial e acessibilidade completa para pessoas com deficiência (PCDs).**### 🎯 Problema que Resolve
+│   │   │   ├── chatbot.routes.ts- **TypeScript** - Tipagem estática---
 
 │   │   │   ├── feedback.routes.ts
 
-│   │   │   ├── integration.routes.ts
+│   │   │   ├── integration.routes.ts- **Prisma ORM** - Modelagem de banco de dados
 
 │   │   │   └── index.ts
 
-│   │   └── server.ts               # Servidor principal### 💬 Sistema de Comentários
+│   │   └── server.ts- **PostgreSQL** - Banco de dados relacional💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social**Conecte-se:**
 
 │   ├── package.json
 
-│   └── tsconfig.json- ✅ Adicionar comentários em qualquer ticket
+│   └── tsconfig.json- **JWT** - Autenticação
 
 ├── frontend/
 
-│   ├── src/- ✅ Histórico completo de comunicação### 🎯 Problema que ResolveEmpresas de todos os tamanhos enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:
+│   ├── src/- **bcrypt** - Criptografia de senhas## 🚀 Funcionalidades Principais
 
-│   │   ├── components/             # Componentes React
+│   │   ├── components/
 
-│   │   │   ├── Chatbot.tsx            # Chatbot de IA- ✅ Identificação do autor e timestamp
+│   │   │   ├── Chatbot.tsx                 # Chatbot de IA- **Zod** - Validação de schemas
 
 │   │   │   ├── Navbar.tsx
 
-│   │   │   ├── TicketCard.tsx- ✅ Visualização em tempo real- ✅ Centralização de todas as solicitações
+│   │   │   ├── TicketCard.tsx- **AI Service** - Análise inteligente de tickets- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)
 
 │   │   │   └── ...
 
-│   │   ├── pages/                  # Páginas
+│   │   ├── pages/- **NPS Analytics** - Cálculo de Net Promoter Score
 
 │   │   │   ├── Login.tsx
 
-│   │   │   ├── Dashboard.tsx### 👤 Gerenciamento de Usuários (Admin)Empresas de todos os tamanhos enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:- ✅ Rastreabilidade completa do início ao fim
+│   │   │   ├── Dashboard.tsx- **Slack API** - Integração via Webhooks### 👥 Autenticação e Perfis
 
 │   │   │   ├── Tickets.tsx
 
-│   │   │   ├── TicketDetail.tsx- ✅ Listar todos os usuários
+│   │   │   ├── TicketDetail.tsx- **Microsoft Teams API** - Notificações com MessageCard
 
 │   │   │   └── ...
 
-│   │   ├── services/               # Serviços de API- ✅ Criar novos usuários- ✅ Métricas para identificar gargalos
+│   │   ├── services/- **Twilio** - WhatsApp Business API- ✅ Login seguro com JWT**Conecte-se:**- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)
 
 │   │   │   └── api.ts
 
-│   │   ├── App.tsx- ✅ Editar usuários existentes
+│   │   ├── App.tsx
 
 │   │   └── main.tsx
 
-│   ├── package.json- ✅ Ativar/desativar contas- ✅ Centralização de todas as solicitações- ✅ Controle de acesso e permissões
+│   ├── package.json### **Frontend**- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**
 
 │   ├── vite.config.ts
 
-│   └── tailwind.config.js- ✅ Alterar perfis e permissões
+│   └── tailwind.config.js- **React 18** - Biblioteca UI
 
 └── README.md
 
-```- ✅ Validação de email único- ✅ Rastreabilidade completa do início ao fim- ✅ Histórico completo de cada chamado
+```- **Vite** - Build tool moderna- ✅ Controle de permissões (RBAC)- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)- 💻 [GitHub - Perfil](https://github.com/MarcioGil)
 
 
 
----- ✅ Proteção contra auto-exclusão
+---- **TypeScript** - Tipagem estática
 
 
+
+## 📚 API Endpoints- **Tailwind CSS** - Framework CSS utilitário- ✅ Senhas criptografadas com bcrypt (12 rounds)
+
+
+
+### **Autenticação**- **Axios** - Cliente HTTP
+
+```
+
+POST   /api/auth/register  - Registrar novo usuário- **React Router DOM** - Roteamento- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)
+
+POST   /api/auth/login     - Login de usuário
+
+GET    /api/auth/me        - Dados do usuário logado- **Lucide React** - Ícones modernos
+
+```
+
+- **Recharts** - Gráficos e visualizações### 🎫 Gestão de Tickets
+
+### **Tickets**
+
+```
+
+POST   /api/tickets        - Criar ticket
+
+GET    /api/tickets        - Listar tickets (com filtros)### **DevOps & Hospedagem**- ✅ Criar, editar e visualizar chamados- 💻 [GitHub - Perfil](https://github.com/MarcioGil)
+
+GET    /api/tickets/:id    - Buscar ticket específico
+
+PUT    /api/tickets/:id    - Atualizar ticket- **Vercel** - Deploy do frontend
+
+DELETE /api/tickets/:id    - Deletar ticket (Admin)
+
+GET    /api/tickets/:id/pdf - Gerar PDF do ticket- **Render** - Deploy do backend- ✅ Categorias: TI, RH, Financeiro, Compras, Infraestrutura
+
+```
+
+- **Neon.tech** - Banco PostgreSQL gerenciado
+
+### **Chatbot e IA**
+
+```- **Git/GitHub** - Controle de versão- ✅ 4 níveis de prioridade (Baixa, Média, Alta, Urgente)- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)---
+
+POST   /api/chatbot/message      - Processar mensagem do chatbot
+
+POST   /api/chatbot/analyze      - Analisar ticket com IA
+
+GET    /api/chatbot/history/:id  - Histórico da conversa
+
+DELETE /api/chatbot/session/:id  - Limpar sessão do chat---- ✅ Atribuir responsáveis (atendentes)
+
+```
+
+
+
+### **Feedbacks**
+
+```## 📁 Estrutura do Projeto- ✅ Atualizar status (Aberto → Em Análise → Em Progresso → Concluído)
+
+POST   /api/feedbacks         - Criar feedback (ticket completo)
+
+GET    /api/feedbacks         - Listar feedbacks (Admin/Atendente)
+
+GET    /api/feedbacks/:id     - Buscar feedback específico
+
+GET    /api/feedbacks/stats   - Estatísticas e NPS```- ✅ Sistema de comentários em tempo real
+
+```
+
+HelpDeskFlow/
+
+### **Integrações** (Apenas Admin)
+
+```├── backend/- ✅ Upload de arquivos PDF (até 10MB)---## 📋 Sobre o Projeto
+
+POST   /api/integrations           - Criar integração
+
+GET    /api/integrations           - Listar integrações│   ├── prisma/
+
+GET    /api/integrations/:id       - Buscar integração
+
+PATCH  /api/integrations/:id       - Atualizar integração│   │   ├── schema.prisma           # Modelos do banco- ✅ Download e exclusão de anexos
+
+DELETE /api/integrations/:id       - Deletar integração
+
+POST   /api/integrations/:id/test  - Testar integração│   │   └── migrations/             # Migrações SQL
+
+PATCH  /api/integrations/:id/toggle - Ativar/Desativar
+
+```│   ├── src/- ✅ Histórico automático de mudanças
+
+
+
+### **Comentários**│   │   ├── controllers/            # Controladores da API
+
+```
+
+POST   /api/comments           - Adicionar comentário│   │   │   ├── auth.controller.ts- ✅ Filtros: Todos, Meus Tickets, Atribuídos a Mim
+
+GET    /api/comments/ticket/:id - Listar comentários do ticket
+
+DELETE /api/comments/:id       - Deletar comentário│   │   │   ├── ticket.controller.ts
+
+```
+
+│   │   │   ├── user.controller.ts## 📋 Sobre o ProjetoO **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles.
+
+### **Usuários** (Admin)
+
+```│   │   │   ├── comment.controller.ts
+
+GET    /api/users          - Listar usuários
+
+GET    /api/users/:id      - Buscar usuário│   │   │   ├── chatbot.controller.ts    # IA - Chatbot### 📊 Dashboard e Métricas
+
+PUT    /api/users/:id      - Atualizar usuário
+
+DELETE /api/users/:id      - Deletar usuário│   │   │   ├── feedback.controller.ts   # Feedback e NPS
+
+PATCH  /api/users/:id/toggle - Ativar/Desativar usuário
+
+```│   │   │   └── integration.controller.ts # Integrações- ✅ 4 cards de resumo (Total, Abertos, Em Progresso, Concluídos)
+
+
+
+---│   │   ├── middleware/             # Middlewares
+
+
+
+## 🔗 Configuração de Integrações│   │   │   ├── auth.middleware.ts- ✅ Gráficos de tickets por categoria (com percentuais)
+
+
+
+### **Slack**│   │   │   └── role.middleware.ts
+
+1. Acesse seu workspace Slack
+
+2. Vá em **Apps** → **Incoming Webhooks**│   │   ├── services/               # Serviços- ✅ Gráficos de tickets por prioridade (color-coded)O **HelpDeskFlow** é um sistema completo e profissional de gerenciamento de chamados internos para empresas. Permite que funcionários abram solicitações para diferentes setores (TI, RH, Financeiro, Compras, Infraestrutura) com rastreabilidade completa, métricas de desempenho e controle de acesso baseado em roles.**Desenvolvido com foco em segurança empresarial e acessibilidade completa para pessoas com deficiência (PCDs).**
+
+3. Clique em **Add to Slack**
+
+4. Escolha o canal para receber notificações│   │   │   ├── ai.service.ts          # IA - Análise e sugestões
+
+5. Copie a **Webhook URL**
+
+6. Configure no painel Admin do HelpDeskFlow│   │   │   └── integration.service.ts  # Slack/Teams/WhatsApp- ✅ Tabela dos 5 tickets mais recentes
+
+7. Teste a integração
+
+│   │   ├── routes/                 # Rotas da API
+
+### **Microsoft Teams**
+
+1. Abra o canal do Teams desejado│   │   │   ├── auth.routes.ts- ✅ Botões de ação rápida (Novo Ticket, Meus Tickets, Atribuídos)
+
+2. Clique em **⋯** → **Connectors**
+
+3. Procure por **Incoming Webhook**│   │   │   ├── ticket.routes.ts
+
+4. Clique em **Add** e depois em **Configure**
+
+5. Dê um nome e copie a **URL do webhook**│   │   │   ├── user.routes.ts- ✅ Métricas em tempo real
+
+6. Configure no HelpDeskFlow
+
+7. Teste a integração│   │   │   ├── comment.routes.ts
+
+
+
+### **WhatsApp Business (Twilio)**│   │   │   ├── chatbot.routes.ts- ✅ Interface responsiva**Desenvolvido com foco em segurança empresarial e acessibilidade completa para pessoas com deficiência (PCDs).**### 🎯 Problema que Resolve
+
+1. Crie uma conta no [Twilio](https://www.twilio.com)
+
+2. Ative o **WhatsApp Business API**│   │   │   ├── feedback.routes.ts
+
+3. Configure seu número de WhatsApp Business
+
+4. Obtenha suas credenciais:│   │   │   ├── integration.routes.ts
+
+   - `TWILIO_ACCOUNT_SID`
+
+   - `TWILIO_AUTH_TOKEN`│   │   │   └── index.ts
+
+   - `TWILIO_WHATSAPP_NUMBER`
+
+5. Adicione as variáveis de ambiente no backend│   │   └── server.ts               # Servidor principal### 💬 Sistema de Comentários
+
+6. Configure no painel Admin
+
+7. Teste enviando uma mensagem│   ├── package.json
+
+
+
+---│   └── tsconfig.json- ✅ Adicionar comentários em qualquer ticket
+
+
+
+## 🚀 Como Executar Localmente├── frontend/
+
+
+
+### **Pré-requisitos**│   ├── src/- ✅ Histórico completo de comunicação### 🎯 Problema que ResolveEmpresas de todos os tamanhos enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:
+
+- Node.js 18+ instalado
+
+- PostgreSQL 15+ instalado ou conta no Neon.tech│   │   ├── components/             # Componentes React
+
+- Git
+
+- npm ou yarn│   │   │   ├── Chatbot.tsx            # Chatbot de IA- ✅ Identificação do autor e timestamp
+
+
+
+### **1. Clone o Repositório**│   │   │   ├── Navbar.tsx
+
+```bash
+
+git clone https://github.com/MarcioGil/Sistema-de-Chamados-Internos.git│   │   │   ├── TicketCard.tsx- ✅ Visualização em tempo real- ✅ Centralização de todas as solicitações
+
+cd Sistema-de-Chamados-Internos
+
+```│   │   │   └── ...
+
+
+
+### **2. Configure o Backend**│   │   ├── pages/                  # Páginas
+
+```bash
+
+cd backend│   │   │   ├── Login.tsx
+
+npm install
+
+│   │   │   ├── Dashboard.tsx### 👤 Gerenciamento de Usuários (Admin)Empresas de todos os tamanhos enfrentam o desafio de gerenciar solicitações internas de forma organizada. O HelpDeskFlow oferece:- ✅ Rastreabilidade completa do início ao fim
+
+# Criar arquivo .env
+
+# Adicione:│   │   │   ├── Tickets.tsx
+
+DATABASE_URL="postgresql://usuario:senha@localhost:5432/helpdesk"
+
+JWT_SECRET="seu-secret-jwt-aqui"│   │   │   ├── TicketDetail.tsx- ✅ Listar todos os usuários
+
+PORT=3001
+
+│   │   │   └── ...
+
+# Para integrações (opcional):
+
+TWILIO_ACCOUNT_SID="seu-account-sid"│   │   ├── services/               # Serviços de API- ✅ Criar novos usuários- ✅ Métricas para identificar gargalos
+
+TWILIO_AUTH_TOKEN="seu-auth-token"
+
+TWILIO_WHATSAPP_NUMBER="+14155238886"│   │   │   └── api.ts
+
+
+
+# Executar migrações│   │   ├── App.tsx- ✅ Editar usuários existentes
+
+npx prisma migrate dev
+
+npx prisma generate│   │   └── main.tsx
+
+
+
+# Popular banco com usuários de teste│   ├── package.json- ✅ Ativar/desativar contas- ✅ Centralização de todas as solicitações- ✅ Controle de acesso e permissões
+
+npx prisma db seed
+
+│   ├── vite.config.ts
+
+# Iniciar servidor
+
+npm run dev│   └── tailwind.config.js- ✅ Alterar perfis e permissões
+
+```
+
+└── README.md
+
+**Importante:** Gere uma chave JWT forte:
+
+```bash```- ✅ Validação de email único- ✅ Rastreabilidade completa do início ao fim- ✅ Histórico completo de cada chamado
+
+node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
+
+```
+
+
+
+### **3. Configure o Frontend**---- ✅ Proteção contra auto-exclusão
+
+```bash
+
+cd ../frontend
+
+npm install
 
 ## 🔌 API Endpoints- ✅ Métricas para identificar gargalos- ✅ Interface acessível (WCAG 2.1 AA)
 
+# Criar arquivo .env
 
+# Adicione:
+
+VITE_API_URL=http://localhost:3001
 
 ### **Autenticação**### 📄 Geração de PDFs
+
+# Iniciar aplicação
+
+npm run dev```
 
 ```
 
 POST   /api/auth/register  - Registrar novo usuário- ✅ Exportar tickets completos para PDF- ✅ Controle de acesso e permissões
 
-POST   /api/auth/login     - Login de usuário
+### **4. Acessar a Aplicação**
+
+- **Frontend**: http://localhost:5173POST   /api/auth/login     - Login de usuário
+
+- **Backend**: http://localhost:3001
 
 GET    /api/auth/me        - Dados do usuário logado- ✅ Incluir todos os detalhes e comentários
 
+### **5. Usuários de Teste**
+
 ```
+
+Após rodar o seed (`npx prisma db seed`), você terá acesso a:
 
 - ✅ Formatação profissional- ✅ Histórico completo de cada chamado---
 
-### **Tickets**
+| Email | Senha | Role |
 
-```- ✅ Ideal para documentação e auditorias
+|-------|-------|------|### **Tickets**
 
-POST   /api/tickets        - Criar ticket
+| admin@helpdeskflow.com | Admin@123 | 👨‍💼 Administrador |
+
+| joao.silva@helpdeskflow.com | Atendente@123 | 🎧 Atendente |```- ✅ Ideal para documentação e auditorias
+
+| maria.santos@helpdeskflow.com | Atendente@123 | 🎧 Atendente |
+
+| carlos.oliveira@helpdeskflow.com | Usuario@123 | 👤 Usuário |POST   /api/tickets        - Criar ticket
+
+| ana.paula@helpdeskflow.com | Usuario@123 | 👤 Usuário |
 
 GET    /api/tickets        - Listar tickets (com filtros)- ✅ Interface acessível (WCAG 2.1 AA)
 
+---
+
 GET    /api/tickets/:id    - Buscar ticket específico
+
+## 📦 Modelos do Banco de Dados
 
 PUT    /api/tickets/:id    - Atualizar ticket### ♿ Acessibilidade (WCAG 2.1 AA)
 
-DELETE /api/tickets/:id    - Deletar ticket (Admin)
+### **User**
 
-GET    /api/tickets/:id/pdf - Gerar PDF do ticket- ✅ Navegação completa por teclado## 🚀 Funcionalidades Principais
+- id, name, email, password, role, isActive, createdAtDELETE /api/tickets/:id    - Deletar ticket (Admin)
+
+
+
+### **Ticket**GET    /api/tickets/:id/pdf - Gerar PDF do ticket- ✅ Navegação completa por teclado## 🚀 Funcionalidades Principais
+
+- id, title, description, status, priority, category, attachments, userId, assignedToId, createdAt, updatedAt
 
 ```
 
-- ✅ Labels ARIA para leitores de tela
+### **Comment**
 
-### **Chatbot e IA**
+- id, content, ticketId, userId, createdAt- ✅ Labels ARIA para leitores de tela
+
+
+
+### **ChatMessage**### **Chatbot e IA**
+
+- id, sessionId, userId, message, isBot, metadata, createdAt
 
 ```- ✅ Contraste de cores adequado---
 
-POST   /api/chatbot/message      - Processar mensagem do chatbot
+### **Feedback**
 
-POST   /api/chatbot/analyze      - Analisar ticket com IA- ✅ Foco visível em todos os elementos
+- id, ticketId (unique), userId, rating, npsScore, comment, createdAtPOST   /api/chatbot/message      - Processar mensagem do chatbot
+
+
+
+### **Integration**POST   /api/chatbot/analyze      - Analisar ticket com IA- ✅ Foco visível em todos os elementos
+
+- id, type, name, webhookUrl, apiKey, active, config, createdAt
 
 GET    /api/chatbot/history/:id  - Histórico da conversa
 
+---
+
 DELETE /api/chatbot/session/:id  - Limpar sessão do chat- ✅ Mensagens de erro acessíveis### 👥 Autenticação e Perfis
+
+## 🎨 Funcionalidades de IA em Detalhe
 
 ```
 
-- ✅ Suporte a `prefers-reduced-motion`
+### **Análise de Prioridade**
 
-### **Feedbacks**
+O sistema utiliza análise semântica para determinar a urgência do ticket:- ✅ Suporte a `prefers-reduced-motion`
 
-```## 🚀 Funcionalidades Principais- ✅ Login seguro com JWT
+
+
+- **Urgente (4):** urgente, crítico, emergência, parado, travado, não funciona### **Feedbacks**
+
+- **Alta (3):** problema, erro, falha, bug, lento
+
+- **Média (2):** dúvida, ajuda, melhoria, sugestão```## 🚀 Funcionalidades Principais- ✅ Login seguro com JWT
+
+- **Baixa (1):** informação, consulta, pergunta
 
 POST   /api/feedbacks         - Criar feedback (ticket completo)
 
-GET    /api/feedbacks         - Listar feedbacks (Admin/Atendente)---
+### **Categorização Automática**
 
-GET    /api/feedbacks/:id     - Buscar feedback específico
+Análise de conteúdo para sugerir categoria:GET    /api/feedbacks         - Listar feedbacks (Admin/Atendente)---
 
-GET    /api/feedbacks/stats   - Estatísticas e NPS- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**
 
-```
 
-## 🏗️ Arquitetura Técnica
+- **TI:** sistema, software, computador, internet, rede, email, loginGET    /api/feedbacks/:id     - Buscar feedback específico
+
+- **RH:** férias, folha, pagamento, salário, contrato, admissão
+
+- **Financeiro:** pagamento, nota fiscal, cobrança, fatura, reembolsoGET    /api/feedbacks/stats   - Estatísticas e NPS- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**
+
+- **Compras:** compra, cotação, fornecedor, pedido, estoque
+
+- **Infraestrutura:** manutenção, reparo, instalação, elétrica, ar condicionado```
+
+
+
+### **Chatbot Inteligente**## 🏗️ Arquitetura Técnica
+
+Fluxo de conversação em 3 etapas:
 
 ### **Integrações** (Apenas Admin)
 
-```### 👥 Autenticação e Perfis- ✅ Controle de permissões (RBAC)
+1. **Saudação:** Bot se apresenta e solicita descrição do problema
+
+2. **Análise:** IA processa a mensagem e apresenta sugestões (categoria, prioridade, título)```### 👥 Autenticação e Perfis- ✅ Controle de permissões (RBAC)
+
+3. **Confirmação:** Usuário pode ajustar e criar o ticket
 
 POST   /api/integrations           - Criar integração
 
-GET    /api/integrations           - Listar integrações### **Backend**
+### **Sistema NPS**
 
-GET    /api/integrations/:id       - Buscar integração
-
-PATCH  /api/integrations/:id       - Atualizar integração```- ✅ Senhas criptografadas com bcrypt (12 rounds)
-
-DELETE /api/integrations/:id       - Deletar integração
-
-POST   /api/integrations/:id/test  - Testar integraçãoNode.js + Express + TypeScript
-
-PATCH  /api/integrations/:id/toggle - Ativar/Desativar
-
-```├── JWT Authentication- ✅ Login seguro com JWT
+Cálculo automático do Net Promoter Score:GET    /api/integrations           - Listar integrações### **Backend**
 
 
 
-### **Comentários**├── Prisma ORM (PostgreSQL)
+- **Promotores (9-10):** Clientes satisfeitos que recomendamGET    /api/integrations/:id       - Buscar integração
 
-```
+- **Neutros (7-8):** Satisfeitos mas não entusiasmados
 
-POST   /api/comments           - Adicionar comentário├── Zod (validação)- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**### 🎫 Gestão de Tickets
+- **Detratores (0-6):** Insatisfeitos que podem prejudicar a marcaPATCH  /api/integrations/:id       - Atualizar integração```- ✅ Senhas criptografadas com bcrypt (12 rounds)
 
-GET    /api/comments/ticket/:id - Listar comentários do ticket
+
+
+**Fórmula:** NPS = ((Promotores - Detratores) / Total) × 100DELETE /api/integrations/:id       - Deletar integração
+
+
+
+---POST   /api/integrations/:id/test  - Testar integraçãoNode.js + Express + TypeScript
+
+
+
+## 🔒 Segurança ImplementadaPATCH  /api/integrations/:id/toggle - Ativar/Desativar
+
+
+
+### **Autenticação e Autorização**```├── JWT Authentication- ✅ Login seguro com JWT
+
+- ✅ JWT (JSON Web Tokens) com expiração de 7 dias
+
+- ✅ Bcrypt com 12 rounds para hash de senhas
+
+- ✅ RBAC (Role-Based Access Control) - 3 níveis de acesso
+
+- ✅ Refresh tokens para sessões longas### **Comentários**├── Prisma ORM (PostgreSQL)
+
+
+
+### **Proteção de API**```
+
+- ✅ Helmet.js - Headers HTTP seguros
+
+- ✅ Rate Limiting - 5 tentativas de login em 15 minutosPOST   /api/comments           - Adicionar comentário├── Zod (validação)- ✅ 3 níveis de acesso: **Usuário**, **Atendente**, **Administrador**### 🎫 Gestão de Tickets
+
+- ✅ CORS configurado com whitelist
+
+- ✅ HPP (HTTP Parameter Pollution) protectionGET    /api/comments/ticket/:id - Listar comentários do ticket
+
+- ✅ Request sanitization - Previne NoSQL/SQL injection
 
 DELETE /api/comments/:id       - Deletar comentário├── Bcrypt (criptografia)
 
-```
+### **Validação e Sanitização**
 
-├── Helmet (segurança)- ✅ Controle de permissões (RBAC)- ✅ Criar, editar e visualizar chamados
+- ✅ Zod schemas - Validação rigorosa de dados```
+
+- ✅ XSS Protection - Sanitização de HTML/scripts maliciosos
+
+- ✅ Input validation - Todos os endpoints validados├── Helmet (segurança)- ✅ Controle de permissões (RBAC)- ✅ Criar, editar e visualizar chamados
+
+- ✅ SQL Injection prevenido com Prisma ORM
 
 ### **Usuários** (Admin)
 
-```├── Rate Limiting (proteção contra ataques)
+### **Melhores Práticas**
 
-GET    /api/users          - Listar usuários
+- ✅ Variáveis de ambiente para credenciais```├── Rate Limiting (proteção contra ataques)
 
-GET    /api/users/:id      - Buscar usuário└── CORS configurado- ✅ Senhas criptografadas com bcrypt (12 rounds)- ✅ Categorias: TI, RH, Financeiro, Compras, Infraestrutura
+- ✅ Logs estruturados de segurança
 
-PUT    /api/users/:id      - Atualizar usuário
+- ✅ HTTPS only em produçãoGET    /api/users          - Listar usuários
 
-DELETE /api/users/:id      - Deletar usuário```
+- ✅ Secrets não commitados (.env no .gitignore)
 
-PATCH  /api/users/:id/toggle - Ativar/Desativar usuário
-
-```- ✅ 4 níveis de prioridade (Baixa, Média, Alta, Urgente)
+- ✅ Timeout em requisições HTTPGET    /api/users/:id      - Buscar usuário└── CORS configurado- ✅ Senhas criptografadas com bcrypt (12 rounds)- ✅ Categorias: TI, RH, Financeiro, Compras, Infraestrutura
 
 
 
----### **Frontend**
+---PUT    /api/users/:id      - Atualizar usuário
 
 
 
-## 🔗 Configuração de Integrações```### 🎫 Gestão de Tickets- ✅ Atribuir responsáveis (atendentes)
+## 📈 Diferenciais TécnicosDELETE /api/users/:id      - Deletar usuário```
 
 
+
+- ✅ Arquitetura limpa e escalávelPATCH  /api/users/:id/toggle - Ativar/Desativar usuário
+
+- ✅ Código 100% TypeScript
+
+- ✅ RBAC (Role-Based Access Control)```- ✅ 4 níveis de prioridade (Baixa, Média, Alta, Urgente)
+
+- ✅ Histórico completo de mudanças
+
+- ✅ Dashboard com métricas reais
+
+- ✅ Rate limiting e segurança robusta
+
+- ✅ Acessibilidade WCAG 2.1 AA---### **Frontend**
+
+- ✅ Sistema de comentários
+
+- ✅ Upload de PDFs
+
+- ✅ IA para triagem e priorização
+
+- ✅ NPS e feedback automatizado## 🔗 Configuração de Integrações```### 🎫 Gestão de Tickets- ✅ Atribuir responsáveis (atendentes)
+
+- ✅ Integrações (Slack, Teams, WhatsApp)
+
+- ✅ Documentação completa
+
+- ✅ Deploy-ready
 
 ### **Slack**React 18 + Vite + TypeScript
 
+---
+
 1. Acesse seu workspace Slack
+
+## 🎯 Roadmap Futuro
 
 2. Vá em **Apps** → **Incoming Webhooks**├── Zustand (gerenciamento de estado)- ✅ Atualizar status (Aberto → Em Análise → Em Progresso → Concluído)
 
-3. Clique em **Add to Slack**
+- [ ] Notificações em tempo real (WebSocket)
 
-4. Escolha o canal para receber notificações├── React Router (navegação)
+- [ ] Notificações por email (SendGrid/Nodemailer)3. Clique em **Add to Slack**
 
-5. Copie a **Webhook URL**
+- [ ] Exportação de relatórios (Excel)
 
-6. Configure no painel Admin do HelpDeskFlow├── Axios (requisições HTTP)- ✅ Criar, editar e visualizar chamados- ✅ Sistema de comentários em tempo real
+- [ ] Upload de múltiplos arquivos4. Escolha o canal para receber notificações├── React Router (navegação)
 
-7. Teste a integração
+- [ ] Tags personalizadas
 
-├── Tailwind CSS (estilização)
+- [ ] SLA (Service Level Agreement)5. Copie a **Webhook URL**
 
-### **Microsoft Teams**
+- [ ] Testes automatizados (Jest + Testing Library)
 
-1. Abra o canal do Teams desejado├── React Hook Form (formulários)- ✅ Categorias: TI, RH, Financeiro, Compras, Infraestrutura- ✅ Upload de arquivos PDF (até 10MB)
+- [ ] CI/CD (GitHub Actions)6. Configure no painel Admin do HelpDeskFlow├── Axios (requisições HTTP)- ✅ Criar, editar e visualizar chamados- ✅ Sistema de comentários em tempo real
 
-2. Clique em **⋯** → **Connectors**
+- [ ] Docker + Docker Compose
 
-3. Procure por **Incoming Webhook**├── Recharts (gráficos)
-
-4. Clique em **Add** e depois em **Configure**
-
-5. Dê um nome e copie a **URL do webhook**└── Lucide Icons- ✅ 4 níveis de prioridade (Baixa, Média, Alta, Urgente)- ✅ Download e exclusão de anexos
-
-6. Configure no HelpDeskFlow
-
-7. Teste a integração```
+- [ ] Logs estruturados (Winston)7. Teste a integração
 
 
 
-### **WhatsApp Business (Twilio)**- ✅ Atribuir responsáveis (atendentes)- ✅ Histórico automático de mudanças
-
-1. Crie uma conta no [Twilio](https://www.twilio.com)
-
-2. Ative o **WhatsApp Business API**### **Banco de Dados**
-
-3. Configure seu número de WhatsApp Business
-
-4. Obtenha suas credenciais:```sql- ✅ Atualizar status (Aberto → Em Análise → Em Progresso → Concluído)- ✅ Filtros: Todos, Meus Tickets, Atribuídos a Mim
-
-   - `TWILIO_ACCOUNT_SID`
-
-   - `TWILIO_AUTH_TOKEN`PostgreSQL
-
-   - `TWILIO_WHATSAPP_NUMBER`
-
-5. Adicione as variáveis de ambiente no backend├── Users (autenticação e roles)- ✅ Sistema de comentários em tempo real
-
-6. Configure no painel Admin
-
-7. Teste enviando uma mensagem├── Tickets (chamados)
+---├── Tailwind CSS (estilização)
 
 
 
----├── Comments (comentários)- ✅ Upload de arquivos PDF (até 10MB)### 📊 Dashboard e Métricas
+## 🤝 Contribuindo### **Microsoft Teams**
+
+
+
+Contribuições são bem-vindas! Para contribuir:1. Abra o canal do Teams desejado├── React Hook Form (formulários)- ✅ Categorias: TI, RH, Financeiro, Compras, Infraestrutura- ✅ Upload de arquivos PDF (até 10MB)
+
+
+
+1. Fork o projeto2. Clique em **⋯** → **Connectors**
+
+2. Crie uma branch (`git checkout -b feature/NovaFuncionalidade`)
+
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)3. Procure por **Incoming Webhook**├── Recharts (gráficos)
+
+4. Push para a branch (`git push origin feature/NovaFuncionalidade`)
+
+5. Abra um Pull Request4. Clique em **Add** e depois em **Configure**
+
+
+
+---5. Dê um nome e copie a **URL do webhook**└── Lucide Icons- ✅ 4 níveis de prioridade (Baixa, Média, Alta, Urgente)- ✅ Download e exclusão de anexos
+
+
+
+## 📄 Licença6. Configure no HelpDeskFlow
+
+
+
+Este projeto está sob a licença MIT.7. Teste a integração```
+
+
+
+---
+
+
+
+## 👨‍💻 Sobre o Desenvolvedor### **WhatsApp Business (Twilio)**- ✅ Atribuir responsáveis (atendentes)- ✅ Histórico automático de mudanças
+
+
+
+**Márcio Gil**1. Crie uma conta no [Twilio](https://www.twilio.com)
+
+
+
+🎓 Embaixador da Turma 14 - DIO Campus Expert  2. Ative o **WhatsApp Business API**### **Banco de Dados**
+
+🎓 Estudante do 5° Período de Engenharia de Software  
+
+💡 Apaixonado por Educação, Inovação, Tecnologia e em constante luta por Justiça Social3. Configure seu número de WhatsApp Business
+
+
+
+**Conecte-se:**4. Obtenha suas credenciais:```sql- ✅ Atualizar status (Aberto → Em Análise → Em Progresso → Concluído)- ✅ Filtros: Todos, Meus Tickets, Atribuídos a Mim
+
+- 💼 [LinkedIn](https://linkedin.com/in/márcio-gil-1b7669309)
+
+- 🌐 [Portfólio/CV](https://marciogil.github.io/curriculum-vitae/)   - `TWILIO_ACCOUNT_SID`
+
+- 💻 [GitHub - Perfil](https://github.com/MarcioGil)
+
+- 📦 [GitHub - Repositório do Projeto](https://github.com/MarcioGil/Sistema-de-Chamados-Internos)   - `TWILIO_AUTH_TOKEN`PostgreSQL
+
+
+
+---   - `TWILIO_WHATSAPP_NUMBER`
+
+
+
+## 🙏 Agradecimentos5. Adicione as variáveis de ambiente no backend├── Users (autenticação e roles)- ✅ Sistema de comentários em tempo real
+
+
+
+Agradecimentos especiais a todos que contribuíram para o desenvolvimento deste projeto e à comunidade open source.6. Configure no painel Admin
+
+
+
+---7. Teste enviando uma mensagem├── Tickets (chamados)
+
+
+
+**Desenvolvido com ❤️ e ☕ para resolver problemas reais de empresas**
+
+
+
+⭐ Se este projeto foi útil, considere dar uma estrela!---├── Comments (comentários)- ✅ Upload de arquivos PDF (até 10MB)### 📊 Dashboard e Métricas
+
 
 
 
